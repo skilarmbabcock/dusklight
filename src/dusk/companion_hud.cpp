@@ -571,7 +571,7 @@ void drawBackdrop(f32 w, f32 h) {
     const f32 tile = 172.0f;
     for (f32 ty = 0.0f; ty < h; ty += tile) {
         for (f32 tx = 0.0f; tx < w; tx += tile) {
-            drawTimgTinted(blocks, tx, ty, tile, tile, 0xFF, 0x1B1B1AFFu, 0x605D57FFu);
+            drawTimgTinted(blocks, tx, ty, tile, tile, 0xFF, 0x15120AFFu, 0x272112FFu);
         }
     }
 }
