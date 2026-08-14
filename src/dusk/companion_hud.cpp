@@ -562,6 +562,7 @@ void drawTabs(f32 x0, f32 x1, f32 h) {
 
 // The pause menu's stone-block backdrop, tiled and tinted down to the same
 // smoky dark warm grey the game fades it to.
+//Skilar Colors
 void drawBackdrop(f32 w, f32 h) {
     fillRect(0.0f, 0.0f, w, h, COL_BG);
     const ResTIMG* blocks = decoTimg(DECO_BLOCKS);
